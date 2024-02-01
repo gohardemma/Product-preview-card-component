@@ -1,0 +1,82 @@
+body {
+    margin 0;
+    padding 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card {
+    display: flex;
+    margin: auto;
+    width: 650px;
+    height: 500px;
+    border-radius: 12px;
+    margin-top: 3%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.card-component {
+  width: 350px;
+  height: 491px;
+}
+
+.card-component h1 {
+    margin-left: 6%;
+    margin-top: 8%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 0.79em;
+    letter-spacing: 7px;
+}
+
+.card-component p {
+    margin-top: 5%;
+    margin-left: 6%;
+    
+}
+
+.card-component-2 p {
+    margin-left: 7%;
+    margin-top: -9%;
+}
+
+.component-number {
+    margin-top: 15%;
+}
+
+.component-number .move-right {
+    margin-left: 65%;
+    margin-top: -23%;
+}
+
+.click-card {
+    cursor: pointer;
+    width: 250px;
+    height: 45px;
+    border-radius: 9px;
+    margin-left: 8%;
+    margin-top: 15%;
+    background-color: hsl(158, 36%, 37%);
+}
+
+.click-card:hover{
+    background-color: hsl(158, 89%, 11%);
+}
+
+.click-card img {
+    margin-top: 6%;
+    margin-left: 29%;
+}
+
+.click-card p {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
